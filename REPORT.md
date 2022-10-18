@@ -21,3 +21,9 @@
 
 `git branch old-master`
 
+# Задача 4
+`git blame prisma/seed.ts`
+
+![Изображение 4](\docx\task-4-1.png)
+
+и так для каждого задания
