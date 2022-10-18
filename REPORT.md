@@ -46,4 +46,14 @@
 
 ![Изображение 5](\docx\task-5-1.png)
 
-и так для каждого задания
+# Задача 6
+`git filter-branch --tree-filter "rm -f .env" -- --all`
+
+`echo .env >> .gitignore`
+
+![Изображение 6.1](\docx\task-6-1.png)
+
+![Изображение 6.2](\docx\task-6-2.png)
+
+![Изображение 6.3](\docx\task-6-3.png)
+
