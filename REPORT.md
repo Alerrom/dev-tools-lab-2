@@ -96,3 +96,10 @@
 
 ![Изображение 9.1](\docx\task-9-1.png)
 
+# Задача 10
+`git gc --prune=now --aggressive`
+
+![Изображение 10.1](\docx\task-10-1.png)
+
+![Изображение 10.2](\docx\task-10-2.png)
+
