@@ -57,3 +57,12 @@
 
 ![Изображение 6.3](\docx\task-6-3.png)
 
+# Задача 7
+`git checkout feature`
+
+`git filter-branch --env-filter "GIT_AUTHOR_NAME='Ershov Aleksandr Romanovich'; GIT_AUTHOR_EMAIL='alex2002andr@mail.ru'; GIT_COMMITTER_NAME='Ershov Aleksandr Romanovich'; GIT_COMMITTER_EMAIL='alex2002andr@mail.ru'" HEAD~3..HEAD`
+
+![Изображение 7.1](\docx\task-7-1.png)
+
+![Изображение 7.2](\docx\task-7-2.png)
+
