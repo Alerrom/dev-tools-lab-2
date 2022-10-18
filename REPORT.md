@@ -66,3 +66,28 @@
 
 ![Изображение 7.2](\docx\task-7-2.png)
 
+# Задача 8
+`git checkout master`
+
+`git config rerere.enabled true`
+
+`git merge feature`
+
+Далее решаем конфликт (я это сделал через VSCode приняв новую старую версию)
+
+`git add .`
+
+`git commit --no-edit`
+
+`git reset --hard HEAD~1`
+
+`git merge feature`
+
+Хоть при попытке `merge` мы увидим конфликт, можно заметить стручку "Resolved 'file-name' using previous resolution." Это значит, что все отработало нормально (конфликт починился без нашего внешнего вмешательства).
+
+`git add .`
+
+`git commit --no-edit`
+
+![Изображение 8.1](\docx\task-8-1.png)
+
