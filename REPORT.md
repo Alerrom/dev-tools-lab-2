@@ -103,3 +103,33 @@
 
 ![Изображение 10.2](\docx\task-10-2.png)
 
+# Задача 11
+`git remote add origin https://github.com/Alerrom/dev-tools-lab-2.git`
+
+`git checkout master`
+
+`git push -u origin master`
+
+`git checkout feature`
+
+`git push -u origin feature`
+
+`git checkout old-master`
+
+`git push -u origin old-master`
+
+`git branch report`
+
+`git checkoit report`
+
+Далее создаю REPORT.md и \docx для храниения скриншотов. После чего приступаю к заполнению файлов.
+
+Заливка по отдельным строчкам будет происходить через
+
+`git add -p`
+
+`e`
+
+`git commit -m "*commit-message*"`
+
+и так для каждого задания
