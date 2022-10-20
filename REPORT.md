@@ -3,14 +3,30 @@
 
 Или скачать расширение для VSCode, чтобы показать крысивый граф:)
 
+![Изображение 1.1](/docx/task-1-1.png)
+
+![Изображение 1.2](/docx/task-1-2.png)
+
 # Задача 2
 `git checkout ci`
 
 `git rebase -i HEAD~2`
 
+Меняем `pick` перед хэшами коммитов на `r` и `f` соответственно. После чего меняем название коммита, в который слились 2 предыдущих.
+
+`git checkout master`
+
+`git cherry-pick c8ecab8bcb059edefbc26a9fcbe2846984d7325f`
+
+`git branch -D ci`
+
+`git branch *чтобы убедиться, что ветки нет*`
+
 ![Изображение 2.1](/docx/task-2-1.png)
 
 ![Изображение 2.2](/docx/task-2-2.png)
+
+![Изображение 2.3](/docx/task-2-3.png)
 
 # Задача 3
 `git reflog`
